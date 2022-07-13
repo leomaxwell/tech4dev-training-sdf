@@ -1,0 +1,15 @@
+﻿Pseudocode
+--------------------------------------------
+Set the value of two variables to 62 and 99 respectively
+Calculate the sum of the variable
+Assign the result to a variable name total
+Display the total
+
+
+Algorithm
+----------------------------------------------
+Start
+Step 1: number1 = 62, number2 = 99;
+step 2: total = number1 + number2;
+Step 3: Display total
+End

@@ -1,0 +1,37 @@
+﻿Pseudocode
+-------------------------------------
+-Set meal cost tp $44.50
+-Set tax rate to 0.0675
+-Set tip rate to 0.15
+-Calculate tax amount by multiplying meal cost by tax rate
+-Calculate subtotal by summing meal cost and tax amount
+-Calculate tip amount by multiplying subtotal by tip rate
+-Calculate total bill by summing meal cost, tax amount and tip amount
+-Display the meal cost, tax amount, tip amount and total bill
+
+Algorithm
+--------------------------------------
+Start
+	Step 1: Set mealCost = 44.50;
+	Step 2: Set taxRate = 0.0675;
+	Step 3: Set tipRate = 0.15;
+	Step 4: taxAmount = mealCost * taxRate;
+	Step 5: subTotal = mealCost + taxAmount;
+	Step 6: tipAmount = subTotal * tipRate;
+	Step 7: totalBill = mealCost + taxAmount + tipAmount;
+	Step 8: Display mealCost, taxAmount, tipAmount, totalBill
+Stop
+
+
+Output
+------------------------------------
+
+Restaurant Bill
+------------------------------------
+Meal Cost  .................. $44.50
+Tax (6.75%).................. $ 0.00
+                             -------
+Sub-Total ....................$44.50
+Tip (15%) ....................$ 0.00
+------------------------------------
+Total                         $44.00

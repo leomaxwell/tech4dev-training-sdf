@@ -1,0 +1,15 @@
+﻿Pseudocode
+---------------------------------
+-Set the percentage of the East Coast Division Sales to 62%
+-Set the Company annual sales revenue 1.2 million
+-Calculate ECD Sales Revenue by multiplying Annual sales by ECD Percentage
+-Display the ECD Sales Revenue.
+
+Algorithm
+----------------------------------
+Start
+	Step 1: Set ECDSalesPercentage = 0.62
+	Step 2: Set CompanyAnnualSale = 1200000
+	Step 3: ECDSalesRevenue = CompanyAnnualSale * ECDSalesPercentage
+	Step 4: Display ECDSalesRevenue
+Stop	

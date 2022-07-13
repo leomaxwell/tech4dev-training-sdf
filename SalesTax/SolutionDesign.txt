@@ -1,0 +1,33 @@
+﻿Pseudocode
+---------------------------
+-Set purchase price to $52
+-Set state sales tax rate to 4%
+-Set county sales tax rate to 2%
+-Calculate state tax amount by multiplying purchase price by state tax rate
+-Calculate county tax amount by multiplying purchase price by county tax rate
+-Calculate total amount by summing purchase price, state tax amount and county tax amount
+-Display purchase price, state tax amount, county tax amount and total amount.
+
+
+Alrogithm
+-----------------------------
+Start
+	Step 1: Set purchasePrice = 52.00;
+	Step 2: Set stateTaxRate = 0.04;
+	Step 3: Set countyTaxRate = 0.02;
+	Step 4: stateTaxAmount = purchasePrice * stateTaxRate;
+	Step 5: countyTaxAmount = purchasePrice * countyTaxRate;
+	Step 6: totalAmount = purchasePrice + stateTaxAmount + countyTaxAmount;
+	Step 7: Display purchasePrice, stateTaxAmount, countyTaxAmount, totalAmoun
+Stop
+
+
+Output
+
+Receipt
+-----------------------------------
+Purchase Price ................ $52
+State Tax (4%) ................ $00
+County Tax (2%) ............... $00
+-----------------------------------
+Total                           $60
