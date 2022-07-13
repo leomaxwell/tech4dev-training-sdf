@@ -1,0 +1,42 @@
+﻿Pseudocode
+-----------------------------------
+--Set the fixed monthly fee to 10.00
+--Get the total checks issued in the month
+--Get the fee per check based on the number of 
+  checks issued (Use scale provided)
+--Calculate the total check fees by
+  multiplying the total checks issued by fee per check
+--Calculate the total charge by summing the fixed monthly 
+  fee and the total check fees.
+--Display total charge
+
+
+Algorithm
+-----------------------------------
+Start
+	Step 1: Set fixedMonthlyFee = 10.00;
+	Step 2: Input totalChecksIssued;
+	Step 3: if(totalChecksIssued < 20)
+				feePerCheck = 0.10;
+			else if (totalChecksIssued < 40)
+				feePerCheck = 0.08;
+			else if (totalChecksIssued < 60)
+				feePerCheck = 0.06;
+			else
+				feePerCheck = 0.04;
+	Step 4: totalCheckFee = totalChecksIssued * feePerCheck;
+	Step 5: totalCharge = fixedMonthlyFee + totalCheckFee;
+	Step 6:	Display totalCharge
+Stop
+	
+Output
+--------------------------------
+
+Mercy Bank
+-----------------------------
+Enter total checks issued: 5
+
+Fixed Monthly Fee =    $10.00
+Check Processing Fee =  +0.50
+					   ------
+Total Charge         = $10.50

@@ -1,0 +1,57 @@
+﻿Pseudocode
+-----------------------------------------
+--Set package retail price to 99;
+--Collect total units purchased;
+--Calculate gross total but multiplying total 
+  units purchase by package retail price
+--Determine discount percent based on the
+  number of units purchased (use scale provided)
+--Calculate discount amount by mulitplying gross total by discount percent and divde by 100
+--Calculate net total by subtracting discount amount from gross total
+--Display net total
+
+
+Algorithm
+-------------------------------
+Start
+	Step 1: Set retailPrice = 99;
+	Step 2: Input unitsPurchased
+	Step 3: Set grossTotal = retailPrice * unitsPurchased
+	Step 4: if(unitsPurchase >= 10 && unitesPurchase <= 19)
+			{
+				Set discountPercent = 20;
+			}
+			else if(unitsPurchase >= 20 && unitesPurchase <= 49)
+			{
+				Set discountPercent = 30;
+			}
+			else if(unitsPurchase >= 50 && unitesPurchase <= 99)
+			{
+				Set discountPercent = 40;
+			}
+			else if(unitsPurchase >= 100)
+			{
+				Set discountPercent = 50;
+			}
+	Step 5: Set discountAmount = (grossTotal * discountPercent) / 100;
+	Step 6: Set netTotal = grossTotal - discountAmount;
+	Step 7: Display netTotal
+End
+
+
+Output
+--------------------------------------
+
+Mercy Software
+----------------------------------------------
+Enter number of packages purchased: 25
+
+Purchase Details
+-----------------------------------------------
+Item				Price		Qty		Amount
+Software Package	$99.00		25		2475.00
+Discount (30%)						  -	 742.50
+-----------------------------------------------
+Total									1732.50
+										-------
+
