@@ -1,0 +1,20 @@
+﻿Pseudocode
+-----------------------------
+-Collect degree celsius from the user
+-Calculate the degree fahrenheit using the formula f = ((9/7)*c) + 32
+-Display degree fahrenheit
+
+Algorithm
+----------------------------
+Start
+	Step 1: Input celsius
+	Step 2: fahrenheit = ((9 / 7)* celsius) + 32
+	Step 3: Display fahrenheit
+Stop
+
+Output
+---------------------------
+Celsius to Fahrenheit Converter
+Input Celsius: 23
+Fahrenheit = 61.5 or 61.6
+

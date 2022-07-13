@@ -1,0 +1,75 @@
+﻿Pseudocode
+--------------------------
+-Set the number of shares to 100
+-Set the share purchase price to 32.87
+-Set the broker commision percentage to 0.02
+-Set the share sale price to 33.92
+-Calculate the share purchase amount by 
+ multiplying the number of shares (100) 
+ by share purchase price (32.87)
+-Calculate the broker purchase commission by
+ multiplying the share purchase amount by
+ broker commision percentage 2% (decimal = 0.02)
+-Calculate the share sale amount by multiplying
+ the number of shares (100) by share sale price (33.92).
+-Caculate the broker sale commision by mulitiplying
+ the share sale amount by the broker commission
+ percentage 2% (decimal = 0.02)
+-Calculate the broker total commission by summing the 
+ broker purchase commission and the broker sale commission.
+-Calculate the total amount invested by summing
+ the share puchase amount and the broker purchase
+ commission.
+-Calculate net earnings by subtracting broker sale commission 
+ from share sale amount.
+-Calculate the profit or loss by subtracting total amount
+ invested from net earnings.
+
+
+
+Algorithm
+-------------------------------------------
+Start
+	Step 1: Set totalShares = 100;
+	Step 2: Set sharePurchasePrice = 32.87
+	Step 3: Set commissionPercentage = 0.02;
+	Step 4: Set shareSalePrice = 33.92;
+	Step 5: Set sharePurchaseAmount = totalShares * sharePurchasePrice;
+	Step 6: Set purchaseCommission = sharePurchaseAmount * commissionPercentage;
+	Step 7: Set shareSaleAmount =  totalShares * shareSalePrice;
+	Step 8: Set saleCommission = shareSaleAmount * commissionPercentage;
+	Step 9: Set totalAmountInvested = sharePurchaseAmount + purchaseCommission;
+	Step 10 Set netEarnings = shareSaleAmount - saleCommission;
+	Step 11 Set profileLoss = netEarnings - totalAmountInvested;
+Stop
+
+
+Program Output
+------------------------
+
+Stock Transaction Program
+Customer: Joe Peters
+-----------------------------
+Details:
+Share Purchase Price	32.87
+Share Sale Price		33.92
+Broker Commission(2%)	0.02
+Total Shares			100
+
+Investment:
+Shares				  3287.00		
+Commission (2%)		   +65.74
+-----------------------------
+Total				  3352.74
+
+Earnings:
+Shares				  3392.00
+Commission(2)          -67.84
+-----------------------------
+Net					  3324.16
+
+Profit /Loss
+Net Earnings		  3324.16
+Amount Invested		 -3352.74
+-----------------------------
+					   -28.58

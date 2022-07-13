@@ -1,0 +1,43 @@
+﻿Pseudocode
+--------------------------------
+-Collect the monthly cost for each household expense 
+ (rent, phone, internet, television, electricity, and water bills).
+-Sum up the cost of each expense to get the total monthly cost.
+-Multiply the total month cost by 12 to get the total annual cost.
+-Display the total monthly cost and total annual cost.
+
+
+Algorithm
+--------------------------------------------------
+Start
+	Step 1: Intput rent, phone, internet, television, electricity, & water
+	Step 3: totalMonthlyExpense = rent + phone + internet + television + electricity + water;
+	Step 4: totalAnnualExpense = totalMonthlyExpense * 12;
+	Step 5: Display totalMonthlyExpense, totalAnnualExpense
+Stop
+
+
+Output
+---------------------------------------------------
+Household Expense Calulator
+Enter the cost of the following monthly expeses.
+Rent:	100.00
+Phone: 	15.00
+Internet: 50.00
+Television: 30.00
+Electricity: 50.00
+Water: 12.00
+
+Household Expense
+-----------------------------
+Detail					Amount($)
+1. Rent ............... 100.00
+2. Phone .............. 15.00
+3. Internet ........... 50.00
+4. Television ......... 30.00
+5. Electricity ........ 30.00
+6. Water .............. 12.00
+-------------------------------
+Total ................. 237.00
+
+Total Annual ..........2844.00
